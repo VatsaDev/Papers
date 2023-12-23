@@ -14,6 +14,8 @@
 
 ## Method
  - Multi-stage RL
-    - goal scoring and 
+    - goal scoring and getting up
+    - proper 1v1
  - Self play RL
- - 
+ - Distilling between both stages for smooth training
+ - finetuning on sim to real transfer

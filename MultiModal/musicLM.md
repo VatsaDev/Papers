@@ -9,6 +9,15 @@
  - Text-audio pairs are rare
  - used a music-text model to generate text captions for audio, allowing them to use massive audio copora
 
-## Model
+## Method
  - Using semantic tokens (model long term structure) and acoustic tokens (neural audio codec)
  - symbolic representations (Midi, etc) can be useful for models
+ - Tokenization
+    - MuLan Text embeddings
+    - soundstream
+    - w2v bert
+ - Semantic work, then acosustic work
+
+## Future work
+ - lyrics generation, lyrics tokenization?
+ - higher order of music, work on music flow, conductor tones?

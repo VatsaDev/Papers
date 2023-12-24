@@ -30,3 +30,6 @@
     - Robot actions
     - image verification of action completion
     - more instructions
+
+## future work
+ - more robot data / data efficiency

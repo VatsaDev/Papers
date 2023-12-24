@@ -12,3 +12,7 @@
     - human in the loop action collection
  - Easy to get lots of robot actions, harder to get quality text annotations
  - Provide robot with text, actions, images
+
+## future work
+ - longer instruct data
+ - better task breakdown

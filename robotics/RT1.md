@@ -16,3 +16,9 @@
  - use the outputs of 6 images through imagnet to make visual output tokens
  - text is tokenization and embeddings
  - action is emitted as robot movements
+
+## future work
+ - imitation learning, hasnt surpassed human control
+ - can only use defined actions, cannot create an entire new action
+ - more data, more robots
+ - scale model, faster robot, 

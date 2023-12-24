@@ -19,3 +19,6 @@
  - Self play RL
  - Distilling between both stages for smooth training
  - finetuning on sim to real transfer
+
+## future work
+ - expanding technique to longer, larger, real world tasks

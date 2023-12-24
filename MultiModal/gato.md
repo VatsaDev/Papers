@@ -25,3 +25,7 @@
 ## limitations
  - Robotics and RL tasks are hard to get, very limited data
  - 1024 ctx is a couple steps worth IRL actions, long term agents will require a ctx len in the millions
+
+## Future Work
+ - More CTX len
+ - more tasks/scale/data

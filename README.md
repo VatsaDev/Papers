@@ -7,8 +7,7 @@ should be in the groups
  - Multimodal
  - RL
  - SSM
- - Agents
  - Transformers
  - Misc.
 
-Notes on parts of papers, future thoughts
+Notes on papers, future thoughts

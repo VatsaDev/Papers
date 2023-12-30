@@ -32,7 +32,7 @@
  - normalized perciever with scaled cosine attention greatly stablizes everything
  - fp32 needed for logits, instable below, updating the transformer+ViT+ast is unstable, so ViT and Ast are only changed during finetune
  - uses UL2 mixture of denoisers
- - adafactor optimizer
+ - adafactor optimizer (look into that, what are the pros/cons)
  - Instruction Tuning
    - Text - regular instruction dataset
    - Images - images edited/with filters, some pretrain restablished as instruct, inpainting, segementation, VQA etc
@@ -43,3 +43,5 @@
  - scaling model
  - better data
  - trimming/simplifying arch
+
+

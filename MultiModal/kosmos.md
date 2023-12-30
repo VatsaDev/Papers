@@ -35,3 +35,5 @@
  - Integrating speech and audio
  - mulitlanguage text from multilingual docs
  - more precise view of document, long context for multipage
+ - reason with streamed sensor data like movement/audio
+ - look into continous finetuning with more tasks and observe the affects with prev tasks and new tasks

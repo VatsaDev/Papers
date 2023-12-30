@@ -29,3 +29,5 @@
 ## Future Work
  - More CTX len
  - more tasks/scale/data
+ - maybe adding some meta learning abilities to generalize better to out of distribution tasks
+ -  

@@ -21,3 +21,4 @@
 ## Future work
  - lyrics generation, lyrics tokenization?
  - higher order of music, work on music flow, conductor tones?
+ - RL tune, audio version of chatgpt, produces human pref audio?

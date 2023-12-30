@@ -16,3 +16,4 @@
 ## future work
  - longer instruct data
  - better task breakdown
+ - create longterm data by combining short term tasks+actions to a longterm caption

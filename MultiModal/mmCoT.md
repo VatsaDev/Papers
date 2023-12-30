@@ -19,3 +19,7 @@
 ## future work
  - CoT + more modalities, better performance
  - need higher quality data, more data, and filtering/reasoning
+ - curriculum learning, add more difficult reasoning overtime
+ - consider the technique with reasoning models like orca/phi
+ - more benchmarks to test the limits 
+ - 

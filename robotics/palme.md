@@ -33,3 +33,5 @@
 
 ## future work
  - more robot data / data efficiency
+ - working with multiple robots at the sametime
+ - reacting to anticipated actions

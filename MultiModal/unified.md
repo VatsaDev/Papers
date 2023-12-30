@@ -37,7 +37,7 @@
    - Text - regular instruction dataset
    - Images - images edited/with filters, some pretrain restablished as instruct, inpainting, segementation, VQA etc
    - audio - Audio from instruction
-   - Video, video understanding
+   - Video, video understanding 
 
 ## future work
  - scaling model

@@ -11,5 +11,5 @@
  - fuyu was weak with single token ans, data mixture weakness/large vocab
 
 ## future work
- - image resizing is happening
- - 
+ - image resizing is happening, get around that
+ - more data, better mag-bench

@@ -23,4 +23,5 @@
 
 ## future work
  - more tasks
- 
+ - interusage of tasks
+ - more quality data

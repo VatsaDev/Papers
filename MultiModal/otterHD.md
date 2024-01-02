@@ -12,4 +12,4 @@
 
 ## future work
  - image resizing is happening, get around that
- - more data, better mag-bench
+ - more data, better mag-benchio

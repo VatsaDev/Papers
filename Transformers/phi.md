@@ -1,4 +1,4 @@
-# Phi, textbooks
+# Phi, Phi 1.5 textbooks
 
 ## Intro
  - uses transformers
@@ -20,8 +20,15 @@
     - filtered code dataset (6B tok)
     - synth textbook dataset (1B tok)
     - synth exercises dataset (180m tok)
+    - 20B tokens of pure textbooks, synth data in phi 1.5
  - filtering the code datasets
     - get the python subsets of the stack (35m)
     - send random samples (100k) to gpt-4 to rate for learning quality
     - train a random forest classifier
-    - this approach already has a huge benefit to 
+    - this approach already has a huge benefit to benchmarks (hmm possibly use the approach on diverse pretrain data? would need universal signal)
+ - synth data generation needs diverse prompts to work, or it will be repetitive
+    - heavy on natural language reasoning and explanations around code
+ - Synth exercises
+    - docsring with function, meant to align the model to its instructions
+ - the model spikes after the instruction tuning, it may consolidate the models knowledge
+ - using gpt-4 grading to see how well the model really codes, not just its outputs, more meaningful signal of model capabilities

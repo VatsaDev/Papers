@@ -1,0 +1,28 @@
+# Mamba
+
+## Notes
+ - diff from competitors (RWKV, Hyena, etc)
+ - SSMs (ex. S4)
+    - like RNNs, but all the inputs at the same time to compute the output, (rnn space, transformer perf)
+    - all the hidden states are linear transformations in S4, like LSTM, but far less complex backprop
+    - No time dependence compared to RNNs, so all the hidden states are effectivly the same without inputs, and can all be done in one computation
+ - Mamba uses selective ssms
+    - reduces the use of the linear hiddens in S4
+ - computation of different hidden states is data-dependant only
+ - run a GPU-efficient scan to caluculate all the hidden states
+ - combine SSMs with MLP, transformers blocks, etc
+ - attention free, not quadratic
+ - performs better for long sequence data
+ - the selectiveness in Mamba brings strong performance
+ - can stand a 1M sequence lentgh (in nlp, thats Entire codebases/book series ?? More multimodal data needed for these models)
+ - a Mamba layer is the combination of H3 layer + MLP, with the selective ssms
+ - State space architeture
+   - with the rnn state -> input -> state
+   - discrtization, non-cont. values
+   - S4 models have 4 parts with learnable parameters, in a learnable matrix
+      - x: data dependant
+      - A: how the hidden state is propogated
+      - B: how much input is propogated
+      - C: how the hidden state is processed into the output state
+   - output is a linear function of hidden state
+ - 

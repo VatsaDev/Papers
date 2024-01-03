@@ -25,4 +25,8 @@
       - B: how much input is propogated
       - C: how the hidden state is processed into the output state
    - output is a linear function of hidden state
+ - mamba parameters have more dimensions compared to S4, bigger
+ - mamba hardware code splits between GPU HBM and SRAM? less stuff movement, faster
+ - fused selective scan like flashattention for backward pass
+ - paralell scan/prefix sum on all the matrices
  - 

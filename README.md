@@ -8,7 +8,6 @@ should be in the groups
  - RL
  - SSM
  - Transformers
- - CV
  - Misc.
 
 Notes on papers, future thoughts

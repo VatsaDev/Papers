@@ -1,5 +1,21 @@
 # Mamba
 
+## Intro
+ - most research is just based on the transformer and attention
+ - SSMs combine CNNs, and RNNs
+ - can be computed as a conv or an rnn, linear, near linear times
+ - great for long range predictions, scales linearlly
+ - Some changes
+   - selection: efficiently select certain inputs to focus/ignore
+      - by parameterizing the Mamba matrices, the model chooses what to learn/ignore (Really useful for dense modalities like language/dna)
+   - hardware optimized algorithim
+      - computes the scan very efficiently, still linear, 3x faster on a100, avoids a100 IO, very fast training/inference
+   - architecture:
+      - take an S4 block, combine it with an transformer MLP to get a mamba block
+   - large sequence lens:
+      - works well on sequences up to 1M tokens
+ - SOTA for Genomics/Audio, scales to 1M tokens, and scores as well as transformers twice its size
+
 ## Notes
  - diff from competitors (RWKV, Hyena, etc)
  - SSMs (ex. S4)

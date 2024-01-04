@@ -19,4 +19,3 @@
  - LLM doesnt matter as long as its trained on lots of code
  - programs scored by evaluator
  - db with all the correct programs
- - 

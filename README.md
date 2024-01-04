@@ -6,8 +6,7 @@ should be in the groups
  - Robotics
  - Multimodal
  - RL
- - SSM
- - Transformers
+ - LLMs
  - Misc.
 
 Notes on papers, future thoughts

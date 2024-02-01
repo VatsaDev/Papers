@@ -1,5 +1,5 @@
-# Papers
-Reading papers and taking notes
+# Papers/Notes
+Reading papers and blogs and taking notes, noting future thoughts
 
 should be in the groups
 
@@ -8,5 +8,3 @@ should be in the groups
  - RL
  - LLMs
  - Misc.
-
-Notes on papers, future thoughts
